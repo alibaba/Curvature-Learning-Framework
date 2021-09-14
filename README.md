@@ -128,7 +128,7 @@ python examples/hyperml/train.py
 ###  Hyper Tree Pre-train Model
 
 In the real-world, data is often organized in tree-like structure or can be represented hierarchically.
-It has been proven that Hyperbolic deep neural networks have significant advantages over tree-data representation than Euclidean models.
+It has been proven that hyperbolic deep neural networks have significant advantages over tree-data representation than Euclidean models.
 In this case, we present a hyperbolic graph pre-train model for category tree in [Taobao](https://www.taobao.com/).
 The further details including dataset description, model architecture and visualization of results can be found in [CateTreePretrain](examples/tree_pretrain/README.md).
 
