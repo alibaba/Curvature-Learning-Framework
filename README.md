@@ -11,9 +11,10 @@ Considering these simple graph structures shown below. Nodes with same color has
 <div align=center>
     <img src="docs/graph_structure.png" width="400">
 </div>
+
 Actually perfect embedding without distortion, appearing naturally in hyperbolic (negative curvature) or spherical (positive curvature) space, is infeasible in Euclidean space [[1](https://arxiv.org/abs/1911.05076)].
 
-As shown above, due to the high capacity of modeling complex structured data, e.g. scale-free, hierarchical or cyclic, there has been an growing interest in building deep learning models under non-Euclidean geometry, e.g. link prediction [[2](https://arxiv.org/abs/1910.12933)], recommendation [[3](https://arxiv.org/pdf/1809.01703)]. 
+As shown above, due to the high capacity of modeling complex structured data, e.g. scale-free, hierarchical or cyclic, there has been an growing interest in building deep learning models under non-Euclidean geometry, e.g. link prediction [[2](https://arxiv.org/abs/1910.12933)], recommendation [[3](https://arxiv.org/abs/1809.01703)]. 
 
 ## What's CurvLearn
 
@@ -92,7 +93,7 @@ Here we show how to build binary classification model using ```CurvLearn```. Mod
 
 Instructions and implement details are shown in  [Quick Start](examples/quick_start.ipynb).
 
-### HGCN on Link Prediction[[2](https://arxiv.org/abs/1910.12933)]
+### HGCN on Link Prediction [[2](https://arxiv.org/abs/1910.12933)]
 
 HGCN (Hyperbolic Graph Convolutional Neural Network) is the first inductive hyperbolic GCN that leverages 
 both the expressiveness of GCNs and hyperbolic geometry to learn inductive node representations for hierarchical and scale-free graphs.
@@ -103,7 +104,7 @@ Running environment and performance are listed in [hgcn](examples/hgcn/README.md
 python examples/hgcn/train.py
 ```
 
-### HyperML on Recommendation Ranking[[3](https://arxiv.org/abs/1809.01703)]
+### HyperML on Recommendation Ranking [[3](https://arxiv.org/abs/1809.01703)]
 
 HyperML (Hyperbolic Metric Learning) applies hyperbolic geometry to recommender systems through metric learning approach 
 and achieves state-of-the-art performance on multiple benchmark datasets.
