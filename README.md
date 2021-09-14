@@ -84,8 +84,18 @@ We also implemented several typical riemannian optimizers. Please refer to [[4](
 
 ## How to use CurvLearn
 
-To get started with CurvLearn quickly, we provide a simple binary classification model as a quick start and three representative examples for the application demo.
+To get started with ```CurvLearn``` quickly, we provide a simple binary classification model as a quick start and three representative examples for the application demo.
 Note that the non-Euclidean model is sensitive to the hyper-parameters such as learning rate, loss functions, optimizers, and initializers. It is necessary to tune those hyper-parameters when transferring to other datasets.
+
+### Installation
+
+```CurvLearn``` requires tensorflow=1.15, compatible with both python 2/3.
+
+The preferred way for installing is via `pip`. 
+
+```bash
+pip install curvlearn
+```
 
 ### Quick Start
 
