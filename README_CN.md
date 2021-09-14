@@ -91,7 +91,7 @@
 
 ```CurvLearn``` 依赖于Tensorflow~=1.15, 与python 2/3同时保持兼容。
 
-使用推荐使用```pip```进行安装配置。
+推荐使用```pip```进行安装配置。
 
 ```bash
 pip install curvlearn
