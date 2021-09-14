@@ -22,7 +22,7 @@ In this repository, we provide a framework, named ```CurvLearn```,  for training
 
 The framework implements the non-Euclidean operations in Tensorflow and remains the similar interface style for developing deep learning models. 
 
-Currently, ```CurvLearn``` serves for training several recommendation models in Alibaba. We implement CurvLearn on top of our distributed (graph/deep learning) training engines including [Euler](https://github.com/alibaba/euler) and [x-deeplearning](https://github.com/alibaba/x-deeplearning). The figure below shows how the category tree is embedded in hyperbolic space by using ```CurvLearn```.
+Currently, ```CurvLearn``` serves for training several recommendation models in Alibaba. We implement ```CurvLearn``` on top of our distributed (graph/deep learning) training engines including [Euler](https://github.com/alibaba/euler) and [x-deeplearning](https://github.com/alibaba/x-deeplearning). The figure below shows how the category tree is embedded in hyperbolic space by using ```CurvLearn```.
 
 <div align=center>
     <img src="docs/sample.png" width="400">
