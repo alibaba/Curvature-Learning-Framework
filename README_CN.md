@@ -1,6 +1,7 @@
 <div align=center>
     <img src="docs/logo.png" width="400">
 </div>
+
 [English](./README.md) | 简体中文 
 
 ## 为什么使用非欧几何
@@ -10,9 +11,10 @@
 <div align=center>
     <img src="docs/graph_structure.png" width="400">
 </div>
+
 实际上欧氏空间不可能无损表征上述树、环结构 [[1](https://arxiv.org/abs/1911.05076)]，然而这些结构天然的能被双曲（负曲率）、球面（正曲率）空间无损表征。
 
-正如上图所展示的，由于对结构性强的数据如无尺度网络、层次数据、环状数据等的优良表征能力，非欧深度学习逐渐应用到各个领域并展示出优越性，包括链接预测 [[2](https://arxiv.org/abs/1910.12933)],、推荐系统[[3](https://arxiv.org/pdf/1809.01703)]等。
+正如上图所展示的，由于对结构性强的数据如无尺度网络、层次数据、环状数据等的优良表征能力，非欧深度学习逐渐应用到各个领域并展示出优越性，包括链接预测 [[2](https://arxiv.org/abs/1910.12933)]、推荐系统 [[3](https://arxiv.org/abs/1809.01703)]等。
 
 ## 什么是Curvlearn
 
@@ -27,13 +29,13 @@
 <div align=center>
     <img src="docs/sample.png" width="400">
 </div>
+
 ## 为什么使用Curvlearn
 
 目前```CurvLearn``` 具备如下特性：
-
-1. **易于使用。**由于模型空间与模型结构几乎正交，基于```CurvLearn```，模型可以便捷的迁移到非欧空间，同时向下兼容原始欧氏模型。此外```CurvLearn``` 还预留了简明的[接口](curvlearn/README.md)来便于学者探索开发新的非欧流形、黎曼优化器等。
-2. **丰富的流形与算子。**```CurvLearn``` 是首个基于Tensorflow的非欧深度学习框架，它支持多种典型的经过验证的非欧流形，如常曲率流形，积流形等，同时包括丰富的构建神经网络所需的算子与优化器。
-3. **大规模工业场景验证。**```CurvLearn``` 目前服务于阿里巴巴百亿数据量级的搜索广告平台，包括召回和类目预测场景。相比于欧氏模型，```CurvLearn``` 带来了超过1%的千次展现收入（RPM）提升。
+1. **易于使用。** 由于模型空间与模型结构几乎正交，基于```CurvLearn```，模型可以便捷的迁移到非欧空间，同时向下兼容原始欧氏模型。此外```CurvLearn``` 还预留了简明的[接口](curvlearn/README.md)来便于学者探索开发新的非欧流形、黎曼优化器等。
+2. **丰富的流形与算子。** ```CurvLearn``` 是首个基于Tensorflow的非欧深度学习框架，它支持多种典型的经过验证的非欧流形，如常曲率流形，积流形等，同时包括丰富的构建神经网络所需的算子与优化器。
+3. **大规模工业场景验证。** ```CurvLearn``` 目前服务于阿里巴巴百亿数据量级的搜索广告平台，包括召回和类目预测场景。相比于欧氏模型，```CurvLearn``` 带来了超过1%的千次展现收入（RPM）提升。
 
 目前我们致力于探索开发新的非欧表征方法及更好的与Tensorflow集成，欢迎PR！
 
@@ -73,7 +75,7 @@
 
 ### 黎曼优化器
 
-框架实现了以下黎曼优化器，相关细节参考[[4](https://arxiv.org/abs/1810.00760)]。
+框架实现了以下黎曼优化器，相关细节参考 [[4](https://arxiv.org/abs/1810.00760)]。
 
 - ```curvlearn.optimizers.rsgd``` - 黎曼SGD优化器，欧氏空间下退化为SGD。
 - ```curvlearn.optimizers.radagrad``` - 黎曼Adagrad优化器，欧氏空间下退化为Adagrad。
@@ -87,7 +89,7 @@
 
 ### 快速开始
 
-这里我们展示了如何利用`CurvLearn` 构建简单二分类模型，包括使用 `Stereographic` 流形， `linear` 算子， `radam` 优化器。
+这里我们展示了如何利用`CurvLearn`构建简单二分类模型，包括使用`Stereographic` 流形，`linear` 算子，`radam` 优化器。
 
 文档指引及代码细节参考 [Quick Start](examples/quick_start.ipynb)。
 
@@ -107,7 +109,7 @@ python examples/hgcn/train.py
 HyperML (Hyperbolic Metric Learning) 结合了双曲空间与度量学习，在多个任务上取得了最优结果。 
 
 执行以下命令使得模型在Amazon Kindle-Store数据集上进行训练与评测。
-运行环境与模型表现参考[hyperml](examples/hyperml/README.md)。
+运行环境与模型表现参考 [hyperml](examples/hyperml/README.md)。
 
 ```python
 python examples/hyperml/train.py
@@ -119,7 +121,7 @@ python examples/hyperml/train.py
 
 基于双曲空间对树状数据的优异表征能力，我们对[淘宝](https://www.taobao.com/)的树状类目数据进行了双曲预训练，执行以下命令进行模型训练。
 
-数据集构建、模型结构及可视化结果等细节参考[CateTreePretrain](examples/tree_pretrain/README.md)。
+数据集构建、模型结构及可视化结果等细节参考 [CateTreePretrain](examples/tree_pretrain/README.md)。
 
 ```python
 python examples/tree_pretrain/run_model.py
