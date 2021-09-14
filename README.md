@@ -89,7 +89,7 @@ Note that the non-Euclidean model is sensitive to the hyper-parameters such as l
 
 ### Installation
 
-```CurvLearn``` requires tensorflow=1.15, compatible with both python 2/3.
+```CurvLearn``` requires tensorflow=1.1*, compatible with both python 2/3.
 
 The preferred way for installing is via `pip`. 
 
