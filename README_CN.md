@@ -16,7 +16,7 @@
 
 正如上图所展示的，由于对结构性强的数据如无尺度网络、层次数据、环状数据等的优良表征能力，非欧深度学习逐渐应用到各个领域并展示出优越性，包括链接预测 [[2](https://arxiv.org/abs/1910.12933)]、推荐系统 [[3](https://arxiv.org/abs/1809.01703)]等。
 
-## 什么是Curvlearn
+## 什么是CurvLearn
 
 ```CurvLearn``` 是一个开源的基于Tensorflow的非欧深度学习框架。
 
@@ -30,7 +30,7 @@
     <img src="docs/sample.png" width="400">
 </div>
 
-## 为什么使用Curvlearn
+## 为什么使用CurvLearn
 
 目前```CurvLearn``` 具备如下特性：
 1. **易于使用。** 由于模型空间与模型结构几乎正交，基于```CurvLearn```，模型可以便捷的迁移到非欧空间，同时向下兼容原始欧氏模型。此外```CurvLearn``` 还预留了简明的[接口](curvlearn/README.md)来便于学者探索开发新的非欧流形、黎曼优化器等。
@@ -39,7 +39,7 @@
 
 目前我们致力于探索开发新的非欧表征方法及更好的与Tensorflow集成，欢迎PR！
 
-## Curvlearn 架构
+## CurvLearn 架构
 
 <div align=center>
     <img src="docs/architecture.png" width="400">
