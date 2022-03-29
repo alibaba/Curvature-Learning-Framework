@@ -4,6 +4,11 @@
 
 [English](./README.md) | 简体中文 
 
+#### *更新!*
+- [03/29] [*AMCAD: Adaptive Mixed-Curvature Representation based Advertisement Retrieval System*](https://arxiv.org/abs/2203.14683) 发表在ICDE'22！
+- [11/03] [*曲率学习框架详解*](https://mp.weixin.qq.com/s/uP_wU5nnd7faBoo5B_7Xfw?spm=ata.21736010.0.0.5b9d2c7eQ67WZg) 发布在阿里妈妈技术公众号！
+
+
 ## 为什么使用非欧几何
 
 考虑如下图展示的两种简单图结构，它们均满足同色节点间距为2跳距离而异色节点间距为1跳距离。现在我们考虑如何在欧氏空间中表征这些结构同时保持节点距离性质不变。
