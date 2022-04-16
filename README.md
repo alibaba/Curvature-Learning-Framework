@@ -5,8 +5,9 @@
 English | [简体中文](README_CN.md) 
 
 #### *NEWS!*
+- [April 16] [*CurvFaiss*](examples/curvfaiss/README.md), the nearest neighbor search tool in the non-Euclidean space, is available now! 
 - [March 29] Our paper *[AMCAD: Adaptive Mixed-Curvature Representation based Advertisement Retrieval System](https://arxiv.org/abs/2203.14683)* has been accepted by ICDE'22!
-- [November 03] The [Detailed explanation](https://mp.weixin.qq.com/s/uP_wU5nnd7faBoo5B_7Xfw?spm=ata.21736010.0.0.5b9d2c7eQ67WZg) is posted on Alimama Tech Blog!
+- [November 03] The [detailed explanation](https://mp.weixin.qq.com/s/uP_wU5nnd7faBoo5B_7Xfw?spm=ata.21736010.0.0.5b9d2c7eQ67WZg) is posted on Alimama Tech Blog!
 
 ## Why Non-Euclidean Geometry
 

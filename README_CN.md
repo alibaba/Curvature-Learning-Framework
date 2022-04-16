@@ -5,6 +5,7 @@
 [English](./README.md) | 简体中文 
 
 #### *更新!*
+- [04/16] 非欧最近邻检索工具[*CurvFaiss*](examples/curvfaiss/README.md)现已发布！
 - [03/29] [*AMCAD: Adaptive Mixed-Curvature Representation based Advertisement Retrieval System*](https://arxiv.org/abs/2203.14683) 发表在ICDE'22！
 - [11/03] [*曲率学习框架详解*](https://mp.weixin.qq.com/s/uP_wU5nnd7faBoo5B_7Xfw?spm=ata.21736010.0.0.5b9d2c7eQ67WZg) 发布在阿里妈妈技术公众号！
 
