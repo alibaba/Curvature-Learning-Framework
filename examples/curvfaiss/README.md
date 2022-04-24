@@ -29,7 +29,7 @@ A frequent problem is the runtime dependency.
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:`python -c "from os.path import abspath,dirname,join; import curvlearn as cl; print(join(dirname((dirname(cl.__file__))),'curvfaiss'))"`
 ```
 
-Since ```IndexFlatStereographic``` is inherited from ```IndexFlat```, the usgae is the same with ```IndexFlatL2``` in faiss except with an additional parameter ```curvature```.
+Since ```IndexFlatStereographic``` is inherited from ```IndexFlat```, the usage is the same with ```IndexFlatL2``` in faiss except with an additional parameter ```curvature```.
 
 ```python
 import curvfaiss
